@@ -46,6 +46,10 @@ header {
     background-color: white;
 }
 
+header a {
+    text-decoration: none;
+}
+
 /* Deck List Styles */
 .deck-list-wrapper {
     margin-top: 20px;
@@ -100,6 +104,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .deck-item {
